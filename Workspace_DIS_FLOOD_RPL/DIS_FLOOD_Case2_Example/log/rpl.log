@@ -1,0 +1,9 @@
+node '2': received a new/modified message from node '4' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '2': was isolated, now found dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '1': received a new/modified message from node '2' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '1': was isolated, now found dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': received a new/modified message from node '2' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': was isolated, now found dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': received a new/modified message from node '1' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': '1' sent a modified DIO message and is a member of dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482', reevaluating our neighbors
+node '3': in dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482', updated dodag config (i_min = 3, i_doublings = 20, c_treshold = 10, max_rank_inc = 0, min_hop_rank_inc = 0)

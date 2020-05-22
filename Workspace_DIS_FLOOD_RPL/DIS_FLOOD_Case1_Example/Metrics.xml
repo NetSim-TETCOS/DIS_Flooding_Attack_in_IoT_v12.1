@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<NetSim_Metrics>
+ <!--NETSIM_METRICS-->
+ <MENU Name="Link_Metrics">
+  <TABLE name="Link_Metrics">
+   <TH name="Link_id" isShow="true"/>
+   <TH name="Link_throughput_plot" isShow="true"/>
+   <TH name="Packet_transmitted" isShow="true">
+    <TH name="Data"/>
+    <TH name="Control"/>
+   </TH>
+   <TH name="Packet_errored" isShow="true">
+    <TH name="Data"/>
+    <TH name="Control"/>
+   </TH>
+   <TH name="Packet_collided" isShow="true">
+    <TH name="Data"/>
+    <TH name="Control"/>
+   </TH>
+   <TH name="Bytes_transmitted(bytes)" isShow="false"/>
+   <TH name="Payload_transmitted(bytes)" isShow="false"/>
+   <TH name="Overhead_transmitted(bytes)" isShow="false"/>
+   <TR>
+    <TC Value="All"/>
+    <TC Value="NA"/>
+    <TC Value="22421"/>
+    <TC Value="48544"/>
+    <TC Value="2"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="2779"/>
+    <TC Value="5249485"/>
+    <TC Value="2182140"/>
+    <TC Value="3067345"/>
+   </TR>
+   <TR>
+    <TC Value="1"/>
+    <TC Value="NA"/>
+    <TC Value="7474"/>
+    <TC Value="48511"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="2779"/>
+    <TC Value="3179543"/>
+    <TC Value="727480"/>
+    <TC Value="2452063"/>
+   </TR>
+   <TR>
+    <TC Value="2"/>
+    <TC Value="NA"/>
+    <TC Value="7474"/>
+    <TC Value="33"/>
+    <TC Value="1"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="939020"/>
+    <TC Value="727380"/>
+    <TC Value="211640"/>
+   </TR>
+   <TR>
+    <TC Value="3"/>
+    <TC Value="NA"/>
+    <TC Value="7473"/>
+    <TC Value="0"/>
+    <TC Value="1"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="1130922"/>
+    <TC Value="727280"/>
+    <TC Value="403642"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="Queue_Metrics">
+  <TABLE name="Queue_Metrics">
+   <TH name="Device_id" isShow="true"/>
+   <TH name="Port_id" isShow="true"/>
+   <TH name="Queued_packet" isShow="true"/>
+   <TH name="Dequeued_packet" isShow="true"/>
+   <TH name="Dropped_packet" isShow="true"/>
+   <TR>
+    <TC Value="4"/>
+    <TC Value="1"/>
+    <TC Value="13"/>
+    <TC Value="13"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="4"/>
+    <TC Value="2"/>
+    <TC Value="7491"/>
+    <TC Value="7491"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="5"/>
+    <TC Value="1"/>
+    <TC Value="16"/>
+    <TC Value="16"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="5"/>
+    <TC Value="2"/>
+    <TC Value="7473"/>
+    <TC Value="7473"/>
+    <TC Value="0"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="TCP_Metrics">
+  <TABLE name="TCP_Metrics">
+   <TH name="Source" isShow="true"/>
+   <TH name="Destination" isShow="true"/>
+   <TH name="Local Address" isShow="false"/>
+   <TH name="Remote Address" isShow="false"/>
+   <TH name="Syn Sent" isShow="false"/>
+   <TH name="Syn-Ack Sent" isShow="false"/>
+   <TH name="Segment Sent" isShow="true"/>
+   <TH name="Segment Received" isShow="true"/>
+   <TH name="Segment Retransmitted" isShow="false"/>
+   <TH name="Ack Sent" isShow="true"/>
+   <TH name="Ack Received" isShow="true"/>
+   <TH name="Duplicate segment received" isShow="false"/>
+   <TH name="Out of order segment received" isShow="false"/>
+   <TH name="Duplicate ack received" isShow="true"/>
+   <TH name="Times RTO expired" isShow="false"/>
+   <TH name="Congestion Plot" isShow="false"/>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_1"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:58F5:449B:55D1:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_2"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_3"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+   <TR>
+    <TC Value="6_LOWPAN_GATEWAY_6"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+   <TR>
+    <TC Value="ROUTER_7"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="11.2.1.2:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+   <TR>
+    <TC Value="WIRED_NODE_8"/>
+    <TC Value="ANY_DEVICE"/>
+    <TC Value="11.3.1.2:0"/>
+    <TC Value="0.0.0.0:0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="N/A"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="IP_Metrics">
+  <TABLE name="IP_Metrics">
+   <TH name="Device Id" isShow="true"/>
+   <TH name="Packet sent" isShow="true"/>
+   <TH name="Packet forwarded" isShow="true"/>
+   <TH name="Packet received" isShow="true"/>
+   <TH name="Packet discarded" isShow="false"/>
+   <TH name="TTL expired" isShow="false"/>
+   <TH name="Firewall blocked" isShow="false"/>
+   <TR>
+    <TC Value="1"/>
+    <TC Value="9997"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="2"/>
+    <TC Value="15303"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="15"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="3"/>
+    <TC Value="7611"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="6"/>
+    <TC Value="7504"/>
+    <TC Value="7474"/>
+    <TC Value="16"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="7"/>
+    <TC Value="7489"/>
+    <TC Value="7473"/>
+    <TC Value="17"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="8"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="7472"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+    <TC Value="0"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="IP_Forwarding_Table">
+  <MENU Name="WIRELESS_SENSOR_1">
+   <TABLE name="WIRELESS_SENSOR_1">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:1"/>
+     <TC Value="128"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:58F5:449B:55D1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:0"/>
+     <TC Value="16"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:58F5:449B:55D1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FF00:0:0:0:0:0:0:0"/>
+     <TC Value="8"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:58F5:449B:55D1 "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+   </TABLE>
+  </MENU>
+  <MENU Name="WIRELESS_SENSOR_2">
+   <TABLE name="WIRELESS_SENSOR_2">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="0:0:0:0:0:0:0:0"/>
+     <TC Value="0"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:0:0:0:0:0"/>
+     <TC Value="48"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482"/>
+     <TC Value="128"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="0.0.0.0"/>
+     <TC Value="0.0.0.0"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B"/>
+     <TC Value="128"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="1"/>
+     <TC Value="RPL_DAO"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:1"/>
+     <TC Value="128"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:0"/>
+     <TC Value="16"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FF00:0:0:0:0:0:0:0"/>
+     <TC Value="8"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+   </TABLE>
+  </MENU>
+  <MENU Name="WIRELESS_SENSOR_3">
+   <TABLE name="WIRELESS_SENSOR_3">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="0:0:0:0:0:0:0:0"/>
+     <TC Value="0"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:0:0:0:0:0"/>
+     <TC Value="48"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="128"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="0.0.0.0"/>
+     <TC Value="0.0.0.0"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="1"/>
+     <TC Value="RPL"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:1"/>
+     <TC Value="128"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:0"/>
+     <TC Value="16"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FF00:0:0:0:0:0:0:0"/>
+     <TC Value="8"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+   </TABLE>
+  </MENU>
+  <MENU Name="6_LOWPAN_GATEWAY_6">
+   <TABLE name="6_LOWPAN_GATEWAY_6">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="128"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482 "/>
+     <TC Value="1"/>
+     <TC Value="RPL_DAO"/>
+    </TR>
+    <TR>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:3AB6:1C52:ED6B"/>
+     <TC Value="128"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482 "/>
+     <TC Value="1"/>
+     <TC Value="RPL_DAO"/>
+    </TR>
+    <TR>
+     <TC Value="11.2.1.2"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="11.2.1.2"/>
+     <TC Value="11.2.1.1 "/>
+     <TC Value="100"/>
+     <TC Value="OSPF"/>
+    </TR>
+    <TR>
+     <TC Value="11.2.0.0"/>
+     <TC Value="255.255.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.1 "/>
+     <TC Value="300"/>
+     <TC Value="LOCAL"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.1"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.0"/>
+     <TC Value="240.0.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:1"/>
+     <TC Value="128"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FFX2:0:0:0:0:0:0:0"/>
+     <TC Value="16"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="FF00:0:0:0:0:0:0:0"/>
+     <TC Value="8"/>
+     <TC Value="on-link"/>
+     <TC Value="FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482 "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+   </TABLE>
+  </MENU>
+  <MENU Name="ROUTER_7">
+   <TABLE name="ROUTER_7">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="11.2.1.1"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="11.2.1.1"/>
+     <TC Value="11.2.1.2 "/>
+     <TC Value="100"/>
+     <TC Value="OSPF"/>
+    </TR>
+    <TR>
+     <TC Value="11.3.0.0"/>
+     <TC Value="255.255.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.1 "/>
+     <TC Value="300"/>
+     <TC Value="LOCAL"/>
+    </TR>
+    <TR>
+     <TC Value="11.2.0.0"/>
+     <TC Value="255.255.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.2 "/>
+     <TC Value="300"/>
+     <TC Value="LOCAL"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.1"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.2 11.3.1.1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.0"/>
+     <TC Value="240.0.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.2.1.2 11.3.1.1 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="255.255.255.255"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.1 "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+   </TABLE>
+  </MENU>
+  <MENU Name="WIRED_NODE_8">
+   <TABLE name="WIRED_NODE_8">
+    <TH name="Network Destination" isShow="true"/>
+    <TH name="Netmask/Prefix len" isShow="true"/>
+    <TH name="Gateway" isShow="true"/>
+    <TH name="Interface" isShow="true"/>
+    <TH name="Metrics" isShow="false"/>
+    <TH name="Type" isShow="false"/>
+    <TR>
+     <TC Value="11.3.0.0"/>
+     <TC Value="255.255.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.2 "/>
+     <TC Value="300"/>
+     <TC Value="LOCAL"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.1"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.2 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="224.0.0.0"/>
+     <TC Value="240.0.0.0"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.2 "/>
+     <TC Value="306"/>
+     <TC Value="MULTICAST"/>
+    </TR>
+    <TR>
+     <TC Value="255.255.255.255"/>
+     <TC Value="255.255.255.255"/>
+     <TC Value="on-link"/>
+     <TC Value="11.3.1.2 "/>
+     <TC Value="999"/>
+     <TC Value="BROADCAST"/>
+    </TR>
+    <TR>
+     <TC Value="0.0.0.0"/>
+     <TC Value="0.0.0.0"/>
+     <TC Value="11.3.1.1"/>
+     <TC Value="11.3.1.2 "/>
+     <TC Value="999"/>
+     <TC Value="DEFAULT"/>
+    </TR>
+   </TABLE>
+  </MENU>
+ </MENU>
+ <MENU Name="UDP Metrics">
+  <TABLE name="UDP Metrics">
+   <TH name="Device id" isShow="true"/>
+   <TH name="Local address" isShow="true"/>
+   <TH name="Foreign address" isShow="true"/>
+   <TH name="Datagram sent" isShow="true"/>
+   <TH name="Datagram received" isShow="true"/>
+   <TR>
+    <TC Value="2"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB:82"/>
+    <TC Value="11.3.1.2:36934"/>
+    <TC Value="7710"/>
+    <TC Value="0"/>
+   </TR>
+   <TR>
+    <TC Value="8"/>
+    <TC Value="11.3.1.2:36934"/>
+    <TC Value="FDEC:3017:E256:9BB8:1FE7:A6C4:D6E1:25FB:82"/>
+    <TC Value="0"/>
+    <TC Value="7472"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="IEEE802.15.4_Metrics">
+  <MENU Name="IEEE802.15.4_Metrics">
+   <TABLE name="IEEE802.15.4_Metrics">
+    <TH name="Device ID" isShow="true"/>
+    <TH name="PacketTransmitted" isShow="true"/>
+    <TH name="PacketReceived" isShow="true"/>
+    <TH name="AckTransmitted" isShow="false"/>
+    <TH name="AckReceived" isShow="false"/>
+    <TH name="CCAAttempt" isShow="false"/>
+    <TH name="SuccessfulCCAAttempt" isShow="false"/>
+    <TH name="FailedCCA" isShow="false"/>
+    <TH name="Totalbackofftime(Micro seconds)" isShow="false"/>
+    <TH name="Averagebackofftime(Micro seconds)" isShow="false"/>
+    <TH name="BeaconTransmitted" isShow="false"/>
+    <TH name="BeaconReceived" isShow="false"/>
+    <TH name="BeaconForwarded" isShow="false"/>
+    <TH name="BeaconTime(Micro seconds)" isShow="false"/>
+    <TH name="CAPTime(Micro seconds)" isShow="false"/>
+    <TH name="CFPTime(Micro seconds)" isShow="false"/>
+    <TR>
+     <TC Value="1"/>
+     <TC Value="9094"/>
+     <TC Value="11498"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="29283"/>
+     <TC Value="20353"/>
+     <TC Value="8930"/>
+     <TC Value="50566080.0000"/>
+     <TC Value="2066.1987"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+    </TR>
+    <TR>
+     <TC Value="2"/>
+     <TC Value="14859"/>
+     <TC Value="13306"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="31432"/>
+     <TC Value="31430"/>
+     <TC Value="2"/>
+     <TC Value="29433920.0000"/>
+     <TC Value="1121.7623"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+    </TR>
+    <TR>
+     <TC Value="3"/>
+     <TC Value="6796"/>
+     <TC Value="13543"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="22592"/>
+     <TC Value="16390"/>
+     <TC Value="6202"/>
+     <TC Value="38083840.0000"/>
+     <TC Value="1927.9052"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+    </TR>
+    <TR>
+     <TC Value="6"/>
+     <TC Value="7"/>
+     <TC Value="14859"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="26"/>
+     <TC Value="26"/>
+     <TC Value="0"/>
+     <TC Value="21440.0000"/>
+     <TC Value="1261.1765"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+     <TC Value="0.0000"/>
+    </TR>
+   </TABLE>
+  </MENU>
+ </MENU>
+ <MENU Name="Battery model">
+  <TABLE name="Battery model">
+   <TH name="Device Name" isShow="true"/>
+   <TH name="Initial energy(mJ)" isShow="true"/>
+   <TH name="Consumed energy(mJ)" isShow="true"/>
+   <TH name="Remaining Energy(mJ)" isShow="true"/>
+   <TH name="Transmitting energy(mJ)" isShow="false"/>
+   <TH name="Receiving energy(mJ)" isShow="false"/>
+   <TH name="Idle energy(mJ)" isShow="false"/>
+   <TH name="Sleep energy(mJ)" isShow="false"/>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_1"/>
+    <TC Value="6480.000000"/>
+    <TC Value="1989.521881"/>
+    <TC Value="4634.476945"/>
+    <TC Value="414.029310"/>
+    <TC Value="827.067802"/>
+    <TC Value="748.424770"/>
+    <TC Value="0.000000"/>
+   </TR>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_2"/>
+    <TC Value="6480.000000"/>
+    <TC Value="2386.567606"/>
+    <TC Value="4237.431221"/>
+    <TC Value="1565.445563"/>
+    <TC Value="335.502950"/>
+    <TC Value="485.619093"/>
+    <TC Value="0.000000"/>
+   </TR>
+   <TR>
+    <TC Value="WIRELESS_SENSOR_3"/>
+    <TC Value="6480.000000"/>
+    <TC Value="1532.957851"/>
+    <TC Value="5091.040975"/>
+    <TC Value="488.275096"/>
+    <TC Value="60.640911"/>
+    <TC Value="984.041843"/>
+    <TC Value="0.000000"/>
+   </TR>
+  </TABLE>
+ </MENU>
+ <MENU Name="Application_Metrics">
+  <TABLE name="Application_metrics">
+   <TH name="Application Id" isShow="true"/>
+   <TH name="Application Name" isShow="true"/>
+   <TH name="Source Id" isShow="false"/>
+   <TH name="Destination Id" isShow="false"/>
+   <TH name="Packet generated" isShow="true"/>
+   <TH name="Packet received" isShow="true"/>
+   <TH name="Payload generated (bytes)" isShow="false"/>
+   <TH name="Payload received (bytes)" isShow="false"/>
+   <TH name="Throughput (Mbps)" isShow="true"/>
+   <TH name="Delay(microsec)" isShow="true"/>
+   <TH name="Jitter(microsec)" isShow="true"/>
+   <TR>
+    <TC Value="1"/>
+    <TC Value="App1_CBR"/>
+    <TC Value="2"/>
+    <TC Value="8"/>
+    <TC Value="7710"/>
+    <TC Value="7472"/>
+    <TC Value="750440"/>
+    <TC Value="727280"/>
+    <TC Value="0.058182"/>
+    <TC Value="1394494.759782"/>
+    <TC Value="14167.799570"/>
+   </TR>
+  </TABLE>
+ </MENU>
+</NetSim_Metrics>

@@ -1,0 +1,4 @@
+node '2': received a new/modified message from node '4' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '2': was isolated, now found dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': received a new/modified message from node '2' with dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
+node '3': was isolated, now found dodag_id = 'FDEC:3017:E256:9BB8:1FE7:CA28:7F00:E482'
